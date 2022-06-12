@@ -106,18 +106,24 @@ a {
 
 /* main image*/
 #main-image{
+	background-color: transparent;
+	/* background-attachment: fixed; */
 	padding-top: 100px;
 	padding-bottom: 0px;
-	margin: 90px;
-	height: 580px; 
-	background: url("/Users/21355/Desktop/models/model01.jpg") no-repeat center ; stu
+	margin: 100px;
+	height: 400px; 
+	background: url("../first.JPG") no-repeat center ;
 	position: center; 
 }
+
+
 
 h2{
 
 	font-size: 55px;
-	color:#ffefd5;
+	padding-top: 100px;
+	margin: -90px;
+	color:#513c33
 }
 
 #main-image h2{
@@ -140,19 +146,12 @@ h2{
 	margin: 0 auto;
 	line-height:50px;
 	text-align: center;
-	border-radius: 3px;
+	border-radius: 20px;
 	display: block;
 
 }
-
-
-
 .button-1:hover{
-
-
-	background: #02b8dd;
-
-
+	background: #513c33;
 }
 
 /*Steps*/
@@ -233,11 +232,12 @@ margin-top: 0px;
 }
 
 #myVideo{
-	width: 90%;
+	width: 40%;
 	height: 70%;
+	
 	justify-content: center;
 	text-align: center;
-	margin-left: 5%;
+	margin-left: 30%;
 }
 #staff .p{
 	text-align: center;
@@ -312,12 +312,11 @@ color: #FFFFFF;
 
 
 
-/
 /*Contact us*/
 #contact{
-	position: relative;
+	/* position: relative; */
 	min-height: 100vh;
-	padding:  100px;
+	padding:  10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -374,7 +373,7 @@ text-align: center;
 }
 
 .contactForm .inputBox{
-	position: relative;
+	/* position: relative; */
 	width: 100%;
 	margin-top: 5px;
 	text-align: center;
@@ -391,7 +390,7 @@ text-align: center;
 	border-bottom: 2px solid #333;
 	outline: none;
     resize: none;
-				border-radius: 20px;
+	border-radius: 20px;
 	
 }
 
@@ -459,7 +458,8 @@ footer h1{
 	padding-top:30px;
 	color:#777;
 }
-@media only screen and (max-widt:700px);{
+@media only screen and (max-widt:700px)
+{
 	 #wrapper header nav ul{
 			width: 100%;
 			background: white;
@@ -470,5 +470,5 @@ footer h1{
 		}
 }
 
-}
+
 
